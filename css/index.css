@@ -130,6 +130,27 @@ table {
   max-width: 100%;
   width: 100%;
 }
+.how-it-works {
+  text-align: center;
+  margin: 3%;
+}
+.info-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4%;
+}
+.step1 {
+  width: 10%;
+}
+.step2 {
+  width: 10%;
+}
+.step3 {
+  width: 10%;
+}
+.step4 {
+  width: 10%;
+}
 nav {
   display: flex;
   justify-content: space-evenly;
