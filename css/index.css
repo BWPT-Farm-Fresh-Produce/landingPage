@@ -151,19 +151,38 @@ table {
 .step4 {
   width: 10%;
 }
+.how-it-works .title {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+.how-it-works p {
+  font-size: 1.2rem;
+}
 nav {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 50%;
-  padding-right: 20%;
+  padding-left: 40%;
+  padding-right: 10%;
   padding-top: 20%;
   margin-top: 1%;
   padding-top: 0%;
   border-bottom: 1px solid #cac8c8;
   border-top: 1px solid #cac8c8;
+  background-color: #2eab4d;
 }
 nav a {
+  padding: 2%;
   text-decoration: none;
   color: black;
-  margin: 3%;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2eab4d;
+  height: 50px;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
 }
