@@ -127,29 +127,91 @@ table {
   border-spacing: 0;
 }
 .home-welcome img {
-  max-width: 100%;
   width: 100%;
 }
 .how-it-works {
   text-align: center;
-  margin: 3%;
+  padding: 3%;
+  background-color: lightgray;
 }
 .info-items {
   display: flex;
   justify-content: space-evenly;
-  margin: 4%;
+  background-color: lightgray;
+  padding-bottom: 8%;
 }
 .step1 {
   width: 10%;
+  background-color: #b6c0d1;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.step1 h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.step1 p {
+  text-align: center;
+  padding: 1%;
+}
+.step1 img {
+  width: 100%;
 }
 .step2 {
   width: 10%;
+  background-color: #b6c0d1;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.step2 h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.step2 p {
+  text-align: center;
+  padding: 1%;
+}
+.step2 img {
+  width: 100%;
 }
 .step3 {
   width: 10%;
+  background-color: #b6c0d1;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.step3 h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.step3 p {
+  text-align: center;
+  padding: 1%;
+}
+.step3 img {
+  width: 100%;
 }
 .step4 {
   width: 10%;
+  background-color: #b6c0d1;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.step4 h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.step4 p {
+  text-align: center;
+  padding: 1%;
+}
+.step4 img {
+  padding-left: 20%;
+  width: 70%;
 }
 .how-it-works .title {
   font-family: 'Lobster', cursive;
@@ -158,16 +220,29 @@ table {
 .how-it-works p {
   font-size: 1.2rem;
 }
+.info {
+  display: flex;
+  padding: 2%;
+}
+.info p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5%;
+}
+.officeworker {
+  display: flex;
+  padding: 2%;
+}
+.officeworker p {
+  font-size: 1.2rem;
+  padding: 2%;
+}
 nav {
   display: flex;
   justify-content: space-evenly;
   padding-left: 40%;
   padding-right: 10%;
-  padding-top: 20%;
-  margin-top: 1%;
-  padding-top: 0%;
   border-bottom: 1px solid #cac8c8;
-  border-top: 1px solid #cac8c8;
   background-color: #2eab4d;
 }
 nav a {
