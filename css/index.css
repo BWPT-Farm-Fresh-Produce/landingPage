@@ -172,6 +172,7 @@ nav a {
   }
   .workers p {
     text-align: center;
+    width: 100%;
   }
 }
 .workers img {
