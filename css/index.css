@@ -126,25 +126,131 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 40%;
+  padding-right: 10%;
+  border-bottom: 1px solid #cac8c8;
+  background-color: #2eab4d;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 47.6%;
+    flex-direction: column;
+    padding: 0% 26%;
+  }
+}
+nav a {
+  padding: 2%;
+  text-decoration: none;
+  color: #000000;
+}
+@media (max-width: 500px) {
+  nav a {
+    border-bottom: 1px solid #000000;
+    padding: 5%;
+    width: 200%;
+    background-color: #2eab4d;
+  }
+}
+.workers {
+  background-color: #d8d5d5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .workers {
+    flex-direction: column;
+    max-width: 93%;
+  }
+  .workers p {
+    text-align: center;
+  }
+}
+.workers img {
+  width: 50%;
+  height: 50%;
+}
+.workers p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 5%;
+}
+hr {
+  margin: 0;
+}
+.officeworker {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background-color: #d8d5d5;
+}
+@media (max-width: 500px) {
+  .officeworker {
+    flex-direction: column;
+  }
+  .officeworker p {
+    padding: 5%;
+    text-align: center;
+  }
+}
+.officeworker img {
+  width: 50%;
+  height: 50%;
+}
+.officeworker p {
+  padding: 2%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2eab4d;
+  height: 50px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
 .home-welcome img {
   width: 100%;
 }
 .how-it-works {
   text-align: center;
   padding: 3%;
-  background-color: lightgray;
+  background-color: #d8d5d5;
 }
 .info-items {
   display: flex;
   justify-content: space-evenly;
-  background-color: lightgray;
+  background-color: #d8d5d5;
   padding-bottom: 8%;
 }
+@media (max-width: 500px) {
+  .info-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+hr {
+  margin: 0px;
+}
 .step1 {
-  width: 10%;
+  width: 200px;
   background-color: #b6c0d1;
   padding: 1%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 .step1 h2 {
@@ -158,11 +264,16 @@ table {
 .step1 img {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .step1 {
+    margin-bottom: 5%;
+  }
+}
 .step2 {
-  width: 10%;
+  width: 200px;
   background-color: #b6c0d1;
   padding: 1%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 .step2 h2 {
@@ -176,11 +287,16 @@ table {
 .step2 img {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .step2 {
+    margin-bottom: 5%;
+  }
+}
 .step3 {
-  width: 10%;
+  width: 200px;
   background-color: #b6c0d1;
   padding: 1%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 .step3 h2 {
@@ -194,11 +310,16 @@ table {
 .step3 img {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .step3 {
+    margin-bottom: 5%;
+  }
+}
 .step4 {
-  width: 10%;
+  width: 200px;
   background-color: #b6c0d1;
   padding: 1%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 .step4 h2 {
@@ -213,51 +334,15 @@ table {
   padding-left: 20%;
   width: 70%;
 }
+@media (max-width: 500px) {
+  .step4 {
+    margin-bottom: 5%;
+  }
+}
 .how-it-works .title {
   font-family: 'Lobster', cursive;
   font-size: 2rem;
 }
 .how-it-works p {
   font-size: 1.2rem;
-}
-.info {
-  display: flex;
-  padding: 2%;
-}
-.info p {
-  text-align: center;
-  font-size: 1.2rem;
-  padding: 5%;
-}
-.officeworker {
-  display: flex;
-  padding: 2%;
-}
-.officeworker p {
-  font-size: 1.2rem;
-  padding: 2%;
-}
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 40%;
-  padding-right: 10%;
-  border-bottom: 1px solid #cac8c8;
-  background-color: #2eab4d;
-}
-nav a {
-  padding: 2%;
-  text-decoration: none;
-  color: black;
-}
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #2eab4d;
-  height: 50px;
-  align-items: center;
-}
-.footer a {
-  text-decoration: none;
-  color: black;
 }
