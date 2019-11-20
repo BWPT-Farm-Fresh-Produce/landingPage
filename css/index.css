@@ -168,7 +168,7 @@ nav a {
 @media (max-width: 500px) {
   .workers {
     flex-direction: column;
-    max-width: 96%;
+    max-width: 95%;
   }
   .workers p {
     text-align: center;
